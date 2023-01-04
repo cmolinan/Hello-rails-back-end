@@ -45,9 +45,13 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 "Connecting Rails with React using Webpack <a name="about-project"></a>
+# 📖 "Connecting Rails with React with two apps<a name="about-project"></a>
 
 This project is to implement a connection between a Ruby on Rails back-end and React front-end, in order to understand the pros and cons of different approaches of connecting Ruby on Rails back-end with React front-end.
+
+In this case, the React/Redux app is located in the following repository:
+https://github.com/cmolinan/Hello-react-front-end
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -67,20 +71,13 @@ This project is to implement a connection between a Ruby on Rails back-end and R
   </ul>
 </details>
 
-<details>
-<summary>Client</summary>
-  <ul>
-    <li><a href="https://react-redux.js.org/">React/Redux</a></li>
-  </ul>
-</details>
-
 <br>
 
 <br>
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
- - Demostration of the connection between a Ruby on Rails back-end and React front-end displaying a random greeting in the client
+ - Demostration of the connection between a Ruby on Rails back-end and React front-end (in two independent apps) displaying a random greeting in the client
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -95,9 +92,9 @@ In order to run this project you need:
 - Ruby
 - Rails
 - Postgresql 
-- Node
+
 #### Github
-- Enter this url: [https://github.com/cmolinan/Rails-with-webpack-test](https://github.com/cmolinan/Rails-with-webpack-test) in your web browser.
+- Enter this url: [https://github.com/cmolinan/Hello-rails-back-end](https://github.com/cmolinan/Hello-rails-back-end) in your web browser.
 - Once opened navigate to the top left level of the project a green code download button will be visible on the righthand side.
 - Select the download Zip option from drop-down menu.
 - Once the download is complete you will be able to access my project locally.
@@ -105,17 +102,16 @@ In order to run this project you need:
 #### Local (Terminal)
 
 ```sh
-  git clone https://github.com/cmolinan/Rails-with-webpack-test.git
+  git clone https://github.com/cmolinan/Hello-rails-back-end.git
 ```
 
 ### Install
 
 Install this project with the steps below:
 
-- After cloning type `cd Rails-with-webpack-test` to access the project on the terminal.
+- After cloning type `cd Hello-rails-back-end` to access the project on the terminal.
 - Run `bundle install` to install all the required dependancies.
 - Run `npm install` to install other required dependancies.
-- Run `yarn` to install other required dependancies.
 
 - For developmente environment:
   - Create Database with `rails db:create`
@@ -125,8 +121,7 @@ Install this project with the steps below:
 ### Usage
 
 To run the project, execute the following command:
-- Run `./bin/dev` to start a development server.
-- In case don't works, run `foreman start -f Procfile.dev`
+- Run `rails s` to start a development server.
 
 <br>
 <!-- AUTHORS -->
