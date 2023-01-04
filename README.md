@@ -49,7 +49,9 @@
 
 This project is to implement a connection between a Ruby on Rails back-end and React front-end, in order to understand the pros and cons of different approaches of connecting Ruby on Rails back-end with React front-end.
 
-In this case, the React/Redux app is located in the following repository:
+This is the back-end side, developed in Ruby on Rails
+
+The React/Redux app is located in the following repository:
 https://github.com/cmolinan/Hello-react-front-end
 
 
@@ -68,6 +70,13 @@ https://github.com/cmolinan/Hello-react-front-end
 <summary>Database</summary>
   <ul>
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Client</summary>
+  <ul>
+    <li><a href="https://www.reactjs.org/">React</a></li>
   </ul>
 </details>
 
